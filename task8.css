@@ -1,0 +1,36 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 3px double rgb(9, 84, 111);
+    border-radius: 15px;
+}
+
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+}
+
+button{
+
+    border-radius: 15px;
+    height: 35px;
+    margin: 5px 0px;
+    background-color: aqua;
+    color: black
+}
+
+button:hover{
+background-color:black;
+color: aqua;
+}
